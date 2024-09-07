@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cpg"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/tvSalesReportHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sales Report"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp" />
+
+
+
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:padding="16dp">
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="St ID"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="#CCCCCC"
+                android:layout_margin="1dp"
+                android:gravity="center" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="St Name"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="#CCCCCC"
+                android:layout_margin="1dp"
+                android:gravity="center" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="St Sold"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="#CCCCCC"
+                android:layout_margin="1dp"
+                android:gravity="center" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="St Remaining"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:background="#CCCCCC"
+                android:layout_margin="1dp"
+                android:gravity="center" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/twobuttons"
+    tools:context=".fragment_home">
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="183dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/orders"
+        android:text="Order"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/storeManagerButton"
+        android:layout_width="195dp"
+        android:layout_height="115dp"
+        android:layout_below="@id/orderButton"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/storeman"
+        android:text="Store Manager"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

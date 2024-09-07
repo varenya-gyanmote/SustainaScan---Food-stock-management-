@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SustainaScan</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<string name="about_us_content">Our app streamlines inventory management for supermarkets, tracking stock and highlighting products nearing expiry within 3 days. Additionally, restaurants can input their details, desired items, and place orders effortlessly. Simplifying operations and fostering efficiency, we empower businesses to stay ahead in inventory management and procurement, ensuring freshness and minimizing waste.</string>
+</resources>

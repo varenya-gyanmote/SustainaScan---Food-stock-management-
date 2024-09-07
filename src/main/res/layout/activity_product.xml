@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/cpg"
+    tools:context=".ProductDetails">
+
+
+    <EditText
+        android:id="@+id/productIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Enter Product ID"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/productNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productIdEditText"
+        android:layout_marginBottom="8dp"
+        android:hint="Enter Product Name"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/manufactureDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productNameEditText"
+        android:layout_marginBottom="8dp"
+        android:text="Manufacture Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/manufactureDatePickerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manufactureDateTextView"
+        android:text="Choose Manufacture Date"/>
+
+
+    <TextView
+        android:id="@+id/expiryDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manufactureDatePickerButton"
+        android:layout_marginBottom="8dp"
+        android:text="Expiry Date"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/expiryDatePickerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expiryDateTextView"
+        android:text="Choose Expiry Date" />
+
+
+    <TextView
+        android:id="@+id/daysLeftTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/expiryDatePickerButton"
+        android:layout_marginTop="32dp"
+        android:text="Operations"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/daysLeftTextView"
+        android:layout_marginTop="9dp"
+        android:focusableInTouchMode="true"
+        android:focusedByDefault="true"
+        android:text="Add to Database" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/showAllButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addButton"
+        android:layout_marginTop="17dp"
+        android:text="Show All Data" />
+
+
+    <EditText
+        android:id="@+id/deleteProductIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showAllButton"
+        android:layout_marginTop="41dp"
+        android:hint="Enter Product ID to Delete"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Product"
+        android:layout_below="@id/deleteProductIdEditText"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:id="@+id/backToHomePageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleteButton"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:text="Back to Home" />
+
+
+</RelativeLayout>

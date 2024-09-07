@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ss"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".first"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_login"
+            android:exported="true"/>
+        <activity
+            android:name=".activity_password"
+            android:exported="true"/>
+        <activity
+            android:name=".activity_signup"
+            android:exported="true"/>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".st_MainActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".st_login"
+            android:exported="true"/>
+        <activity
+            android:name=".st_password"
+            android:exported="true"/>
+        <activity
+            android:name=".st_reset"
+            android:exported="true"/>
+        <activity
+            android:name=".st_signup"
+            android:exported="true"/>
+        <activity
+            android:name=".ResetActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".ProductDetails"
+            android:exported="true" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExpireActivity"
+            android:exported="true" />
+        <activity
+            android:name=".StockActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SalesReportActivity"
+            android:exported="true" />
+        <activity
+            android:name=".OrdersActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".fragment_home"
+            android:exported="true" />
+        <activity
+            android:name=".fragment_about"
+            android:exported="true" />
+        <activity
+            android:name=".fragment_contact"
+            android:exported="true" />
+
+        <activity
+            android:name=".AfterLogin"
+            android:exported="true" />
+
+    </application>
+
+
+</manifest>
+
